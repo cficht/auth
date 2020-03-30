@@ -8,6 +8,6 @@ auth lab plan
 * auth route
 [X]signup route (3)
 [X]login route (5)
-[]verify route (8)
+[X]verify route (8)
 * middleware
 [X]ensureAuth (7)
