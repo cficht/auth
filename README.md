@@ -10,4 +10,4 @@ auth lab plan
 [X]login route (5)
 []verify route (8)
 * middleware
-[]ensureAuth (7)
+[X]ensureAuth (7)
