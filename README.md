@@ -1,4 +1,4 @@
-auth lab plan
+Auth lab plan
 
 * USER model
 [X]hash password with virtual (1)

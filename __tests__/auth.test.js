@@ -6,7 +6,7 @@ const connect = require('../lib/utils/connect');
 const mongoose = require('mongoose');
 const User = require('../lib/models/User');
 
-describe('app routes', () => {
+describe('auth routes', () => {
   beforeAll(() => {
     connect();
   });
@@ -54,9 +54,8 @@ describe('app routes', () => {
       .then(res => {
         expect(res.body).toEqual({
           'message': 'Invalid username/password',
-          'status': 403,
+          'status': 403
         });
       });
   });
-
 });
